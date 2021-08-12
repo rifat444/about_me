@@ -1,0 +1,44 @@
+header {
+    background-image: url('img/biography-bg.png');
+    color: #1f8ff1df;
+    height: 100vh;
+}
+
+.display-1 {
+    font-size: 3rem;
+}
+
+.name {
+    color: #dc143c;
+    animation-name: name;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes name {
+    10% {
+        color: rgb(224, 68, 100);
+    }
+
+    20% {
+        color: rgb(42, 159, 212);
+    }
+
+    30% {
+        color: rgb(105, 179, 121);
+    }
+
+    40% {
+        color: rgba(216, 209, 120, 0.466);
+    }
+
+    50% {
+        color: rgb(243, 74, 108);
+    }
+
+    100% {
+        color: crimson;
+    }
+}
